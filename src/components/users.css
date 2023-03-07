@@ -1,0 +1,30 @@
+label {
+      display: block;
+    }
+    
+    .custom-input {
+      padding-bottom: 2%;
+    }
+    
+    .custom-input-error label {
+      color: red;
+    }
+    
+    .custom-input-error input {
+      border: 2px solid red;
+      border-radius: 4px;
+    }
+
+    .custom-input-error input::after {
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+    
+    .error {
+      color: red;
+      margin: 0;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
